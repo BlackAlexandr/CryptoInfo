@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Profile</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+  <script src="{{ url_for('static', filename='dx.all.js') }}"></script>
+  <script src="{{ url_for('static', filename='mustache.min.js') }}"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Profile/dx.material.briefcase.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Profile/briefcase.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='menu/menu.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='font.css')}}" />
+  <script src="{{ url_for('static', filename='menu/menu.js')}}"></script>
+  <script src="{{ url_for('static', filename='Profile/portfolio_account.js')}}"></script>
+  <script src="{{ url_for('static', filename='Profile/briefcase.js')}}"></script>
+</head>
+
+<body class="dx-viewport" class="u-body u-xl-mode u-body-height100">
+  <div id="menu" style="font-size: 15px !important; background: #0D6EFD !important; margin-bottom: 5px!important;height: 40px!important;"></div>
+  <div class="demo-container">
+    <div class="containercontainerProfile">
+        <div class="mainDiv">
+          <div id="tabpanel-container" class="main-tabs-container" style="height: 50px !important;"> </div>
+          <div id="menuTabs">
+            <div class="tabs-container"></div>
+          </div>    
+          <div id="gridContainer" class="grid-markets"></div>
+          <div id="gridMyPortfolios" class="grid-myportfolio"></div>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+
+.dx-menu-item a {
+    color: white!important;
+    font-size: 18px!important;
+    font-weight: 900!important;
+}
+
+.dx-menu-item a :hover {
+    color: rgb(238, 236, 236)!important;
+}
+
+.dx-menu-items-container{
+    margin-right: 88px!important;
+}

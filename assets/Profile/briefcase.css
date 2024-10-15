@@ -1,0 +1,238 @@
+.containerProfile {
+  position: relative;
+}
+
+.containerProfile,
+.left-content {
+  min-height: 530px;
+  height: 80vh;
+  color: white;
+}
+
+.left-content {
+  display: inline-block;
+  width: 220px;
+  padding: 0 10px 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.right-content {
+  width: 220px;
+  padding: 0 10px 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 0.7rem;
+  float: right;
+  height: 80vh;
+}
+
+.center-content {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 0;
+  right: 220px;
+  left: 220px;
+  top: 70px;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.option {
+  margin-top: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.mainDiv {
+  height: 92vh;
+  width: 100vw;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.iconCompanies {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.cellGridCompanies {
+  vertical-align: middle !important;
+}
+
+
+.dx-datagrid-headers {  
+  color: black !important;  
+}  
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  font-size: 15px !important;
+}
+
+.parent{
+  width:100%;
+  height:76px;
+  display: -ms-flexbox;
+  display:flexbox;
+  display:flex;
+  text-align:center;
+  align-items:center;
+  justify-content:left;
+}
+
+.child{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  margin-left: 10px;
+  height:45px;
+  line-height:45px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.clipart{
+    vertical-align:middle;
+    display:inline-block;
+    clear:left;
+}
+
+.tabpanel-item {
+  height: 200px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 25px;
+  padding-top: 55px;
+}
+
+.mobile .tabpanel-item {
+  padding-top: 10px;
+}
+
+.tabpanel-item > div {
+  float: left;
+  padding: 0 85px 10px 10px;
+}
+
+.tabpanel-item p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.item-box {
+  font-size: 16px;
+  margin: 15px 0 45px 10px;
+}
+
+.options {
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+  margin-top: 20px;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+.tabs-container{
+  margin: auto;
+  width: 50%; 
+  padding: 10px;
+}
+
+.grid-markets {
+  margin-top: 20px;
+  height: 85%;
+}
+
+.grid-main-markets {
+  margin-top: 20px;
+  height: 97%;
+}
+
+.grid-myportfolio {
+  margin-top: 20px;
+  height: 92%;
+}
+
+main-tabs-container{
+  margin: auto;
+  width: 98%; 
+  padding: 10px;
+  height: 50px !important;
+}
+
+
+.dx-button-mode-text {
+  background-color:  #257bfa !important ;
+  color: white;
+  height: 45px;
+}
+
+.dx-button-mode-text:hover {
+  background-color:  #3f87f3 !important ;
+  color: white;
+}
+
+.dx-texteditor-container {
+  background-color: white !important ;
+}
+
+#gridContainer .diff {
+  position: relative;
+  display: table-cell;
+  font-size: 16px;
+}
+
+#gridContainer .inc .diff {
+  color: #2ab71b;
+}
+
+#gridContainer .inc .diff::before {
+  content: '+';
+}
+
+#gridContainer .dec .diff::before {
+  content: '-';
+}
+
+#gridContainer .dec .diff {
+  color: #f00;
+}
+
+#gridContainer .inc .diff::after,
+#gridContainer .dec .diff::after {
+  content: '';
+  display: block;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: -12px;
+  top: 6px;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+
+#gridContainer .inc .diff::after {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADKSURBVHjaYtTaLs1ABEiG0nPRJa56PEHhsxBhmCUQT4OyrwHxcXyKmQgYJgHE64CYDYrXQcXIMhCbAcgWkGzgNKh38QUB0QamIUUErkhKI9ZAGyCeTERkTYaqxWsgKA2txhdG6GGsvUNGGpeBRMUiGhCFGsqGzUBQQJsxkA5AemaiG5hDIBIIgQSgK0FmMDACs549kN5FZLjhA7+A2A2U9YSAOBeLAk4gnoBDczoOcSFGPIUDPxB/wCHHiKtwYGKgMhg1cBAaCBBgAJTUIL3ToPZfAAAAAElFTkSuQmCC');
+}
+
+#gridContainer .dec .diff::after {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADJSURBVHjaYvzPgBfgkhYA4o8QFahKmBioDEYNHIQGsgBxIBCLkqgvAYi/g1mMjMjir0EJzR6If/6HpChKMMgMe3DKBeIcKhiY8x/MYoDj+RQYNgdkGLqBbEB8kgzDToL1YjEQhKWB+BUJhj0H64Eahs1AELYhMpJ+gtUiGYbLQBBOI8LANLBaIg1kAAc0vkiAqSPBQFAkHcNi2DGoHMkGgrAENOCRI0ECRQ2JBoKwJTQCfkLZDPgMZPxPXN5NhtJzMSsJVBMAAgwAyWSY2svfmrwAAAAASUVORK5CYII=');
+}

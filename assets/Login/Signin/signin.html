@@ -1,0 +1,50 @@
+<html style="font-size: 16px;" lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="Sign in">
+  <meta name="description" content="">
+  <meta name="theme-color" content="#2f65f5">
+  <meta property="og:title" content="Login">
+  <meta property="og:type" content="website">
+  <title>Sign in</title>
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+  <script src="{{ url_for('static', filename='dx.all.js') }}"></script>
+  <script src="{{ url_for('static', filename='mustache.min.js') }}"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Profile/dx.material.briefcase.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Login/Signin/signin.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Login/login.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='menu/menu.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='font.css')}}" />
+  <script src="{{ url_for('static', filename='menu/menu.js')}}"></script>
+  <script src="{{ url_for('static', filename='Login/Signin/signin.js')}}"></script>
+</head>
+
+<body data-home-page-title="Sign in" class="u-body u-xl-mode u-body-height100" data-lang="en">
+  <div id="menu" style="font-size: 15px !important; background: #0D6EFD !important; margin-bottom: 5px!important;height: 40px!important;"></div>
+  <section class="u-clearfix u-grey-10 u-section-1" id="sec-0f1e" style="height: 94% !important;">
+    <div class="u-expanded-width u-gradient u-shape u-shape-rectangle u-shape-1"></div>
+    <div
+      class="u-align-center u-border-20 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-container-style u-custom-border u-group u-radius-11 u-shape-round u-white u-group-1">
+      <div class="u-container-layout u-valign-middle-xs u-container-layout-1">
+        <h2 class="u-text u-text-default u-text-palette-1-base u-text-1">Sign in</h2>
+        <div class="u-form u-login-control u-form-1" >
+          <form action="/login" id="form-container" target="_parent"  method="post" style="height: 66% !important">
+            <div id="form"></div>
+          </form>
+        </div>
+        <a a href="/recovery" target="_parent"
+          class="u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-login-control u-login-forgot-password u-none u-text-palette-1-base u-btn-2">Forgot or Change
+          password?</a>
+        <a href="/signup" target="_parent"
+          class="u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-login-control u-login-create-account u-none u-text-palette-1-base u-btn-3">Don't
+          have an account?</a>
+      </div>
+    </div>
+  </section>
+  </section>
+
+</body>
+
+</html>
